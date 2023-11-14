@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+</head>
+<body>
+    <h1>Đăng nhập</h1>
+    <form th:action="@{/login}" method="post">
+        <h3>Số điện thoại</h3><input type="text" name="uname"><br>
+        <h3>Mật khẩu</h3><input type="text" name="upass"><br>
+        <button type="submit">Log in</button>
+    </form>
+</body>
+</html>
